@@ -1146,7 +1146,7 @@ body {
 }
 .owl-carousel-fullwidth .item {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: top left;
   position: relative;
 }
@@ -1161,7 +1161,7 @@ body {
 }
 .owl-carousel-fullwidth .item img {
   max-width: 100%;
-  background-image: url('images/03_sem_fundo.png');
+  background-size: contain;
 }
 .owl-carousel-fullwidth .item .mobile-image {
   position: relative;
@@ -1376,6 +1376,16 @@ body {
 
 .negativo {
 color: white;
+}
+
+.logo {
+  max-width: 50%;
+
+}
+
+.icon {
+  max-width: 50%;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
