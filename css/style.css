@@ -77,7 +77,9 @@ h4 {
   width: 100%;
   opacity: 1;
   top: 0;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  background-color: rgba(0, 0, 0, 0);
+  padding-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header {
@@ -269,7 +271,7 @@ body {
 .section-heading h2 {
   font-size: 40px;
   font-weight: 300;
-  color: #444;
+  color: #222;
   text-transform: uppercase;
   position: relative;
   display: block;
@@ -665,8 +667,9 @@ body {
 }
 
 #fh5co-features {
-  background: #eee;
+  background: #FFC400;
   padding: 7em 0;
+  color: black;
 }
 @media screen and (max-width: 768px) {
   #fh5co-features {
@@ -686,7 +689,6 @@ body {
   color: #00CD9E;
 }
 #fh5co-features .fh5co-service .fh5co-desc {
-  width: 80%;
   float: right;
 }
 #fh5co-features .fh5co-service .fh5co-desc h3 {
@@ -1132,6 +1134,7 @@ body {
   height: 860px;
   display: table;
   width: 100%;
+
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item, .owl-carousel-fullwidth .fh5co-owl-text-wrap {
@@ -1147,8 +1150,7 @@ body {
 .owl-carousel-fullwidth .item {
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top left;
-  position: relative;
+  background-position: center center;
 }
 .owl-carousel-fullwidth .item .overlay {
   position: absolute;
@@ -1162,6 +1164,8 @@ body {
 .owl-carousel-fullwidth .item img {
   max-width: 100%;
   background-size: contain;
+  background-position: center center;
+
 }
 .owl-carousel-fullwidth .item .mobile-image {
   position: relative;
@@ -1384,7 +1388,7 @@ color: white;
 }
 
 .icon {
-  max-width: 50%;
+  max-width: 80%;
   color: white;
 }
 
