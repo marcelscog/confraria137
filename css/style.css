@@ -179,6 +179,7 @@ h4 {
   font-weight: 400;
   padding-left: 0;
   color: #000;
+  max-width: 450px;
 }
 #fh5co-header .navbar-brand span {
   color: #F46572;
@@ -535,7 +536,7 @@ body {
   line-height: 1.5;
 }
 .fh5co-cta .container h3, .fh5co-cta .container p {
-  color: #fff;
+  color: black;
 }
 .fh5co-cta .container p:last-child {
   margin-bottom: 0;
@@ -923,6 +924,7 @@ body {
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
+  padding-top: 0;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
