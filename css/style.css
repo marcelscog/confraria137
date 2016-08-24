@@ -921,8 +921,8 @@ body {
   border-radius: 0px;
 }
 .btn.btn-primary {
-  background: #F46572;
-  color: #fff;
+  background-color: black;
+  color: white;
   border: none !important;
   border: 2px solid transparent !important;
 }
@@ -932,7 +932,7 @@ body {
 }
 .btn:hover, .btn:active, .btn:focus {
   background: #F46572 !important;
-  color: #fff;
+  color: #000;
   outline: none !important;
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
