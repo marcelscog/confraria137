@@ -1533,7 +1533,7 @@
 	content: "\f1d9";
 }
 .icon-history:before {
-	content: "\f1da";
+	content: "\000";
 }
 .icon-circle-thin:before {
 	content: "\f1db";
@@ -2435,4 +2435,3 @@
 .icon-ellipsis:before {
 	content: "\e129";
 }
-

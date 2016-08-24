@@ -4674,6 +4674,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    position: absolute;
   }
 }
 

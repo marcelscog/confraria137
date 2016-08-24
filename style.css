@@ -1170,12 +1170,15 @@ body {
 .owl-carousel-fullwidth .item .mobile-image {
   position: relative;
   z-index: 99999999;
+  background-image: none;
 }
 .owl-carousel-fullwidth .item .mobile-image .mobile {
   float: right;
   text-align: right;
   position: relative;
   bottom: -12em;
+  background-image: none;
+
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .mobile-image .mobile {
@@ -1215,14 +1218,14 @@ body {
   margin-bottom: 20px;
   margin-top: 0;
   color: #000;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-lead {
     margin-bottom: 20px;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 .owl-carousel-fullwidth .item .fh5co-owl-text .fh5co-sub-lead {
